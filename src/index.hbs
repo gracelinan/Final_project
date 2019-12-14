@@ -1,11 +1,11 @@
 ---
-headline: "This title is from the top of index.hbs"
-subhead: "It's the stuff between the --- dashes, it's called frontmatter"
+headline: "Hong Kong's Battles in 2019"
+subhead: "Visualize the Anti-Extradition Bill Protests"
 published_date: "December 14, 2019"
-site: "http://www.littlecolumns.com"
-siteName: "Little Columns"
-url: "http://littlecolumns.com/learn/d3-javascript-tooling/"
-kicker: "Hong Kong Protests"
+site: "https://gracelinan.github.io/Final_project/"
+siteName: "Final Project"
+url: "https://gracelinan.github.io/Final_project/"
+kicker: "Hong Kong"
 author:
     name: "Grace Li"
     url: "https://www.linkedin.com/in/grace-linan/"
@@ -27,16 +27,11 @@ analytics": ""
 
 {{!< bootstrap}}
 
-{{!-- <div class="row mt-3">
-  <div class="col-12"> --}}
+{{> story/chart2 }}
 
 {{> story/chart }}
 
-  {{!-- </div>
-</div> --}}
-
-{{> story/chart2 }}
-
+{{> story/chart3 }}
 
 <!-- 
   If you want to use something exported from ai2html...
@@ -46,7 +41,7 @@ analytics": ""
     4. Include the partial normally like below
   -->
 
-{{> story/illustrator_demo }}
+{{!-- {{> story/illustrator_demo }} --}}
 
 <!--
   You can also put the actual HTML here if you really want to,

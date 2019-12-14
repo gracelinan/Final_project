@@ -100,10 +100,67 @@ function ready(datapoints) {
     .attr('dx', 40)
 
 
-  let rectWidth =
+  let rectWidth1 =
     xPositionScale(parseTime('08-13')) -
     xPositionScale(parseTime('06-20'))
 
+    svg
+    .append('rect')
+    .attr('class', 'first-rect')
+    .attr('x', xPositionScale(parseTime('06-20')))
+    .attr('y', 0)
+    .attr('width', rectWidth1)
+    .attr('height', height)
+    .attr('fill', '#F9E79F')
+    .attr('opacity', 0.5)
+    .lower()
+    .attr('visibility', 'hidden')
+
+  let rectWidth2 =
+  xPositionScale(parseTime('09-11')) -
+  xPositionScale(parseTime('08-13'))
+
+  svg
+  .append('rect')
+  .attr('class', 'sec-rect')
+  .attr('x', xPositionScale(parseTime('08-13')))
+  .attr('y', 0)
+  .attr('width', rectWidth2)
+  .attr('height', height)
+  .attr('fill', '#F9E79F')
+  .attr('opacity', 0.5)
+  .lower()
+  .attr('visibility', 'hidden')
+
+  let rectWidth3 =
+  xPositionScale(parseTime('10-14')) -
+  xPositionScale(parseTime('09-11'))
+
+  svg
+  .append('rect')
+  .attr('class', 'third-rect')
+  .attr('x', xPositionScale(parseTime('09-11')))
+  .attr('y', 0)
+  .attr('width', rectWidth3)
+  .attr('height', height)
+  .attr('fill', '#F9E79F')
+  .attr('opacity', 0.5)
+  .lower()
+  .attr('visibility', 'hidden')
+
+  let rectWidth4 = width - xPositionScale(parseTime('10-14'))
+
+  svg
+  .append('rect')
+  .attr('class', 'four-rect')
+  .attr('x', xPositionScale(parseTime('10-14')))
+  .attr('y', 0)
+  .attr('width', rectWidth4)
+  .attr('height', height)
+  .attr('fill', '#F9E79F')
+  .attr('opacity', 0.5)
+  .lower()
+  .attr('visibility', 'hidden')
 
   let xAxis = d3
     .axisBottom(xPositionScale)
@@ -123,16 +180,31 @@ function ready(datapoints) {
     .call(yAxis)
 
     d3.select('#first-stage').on('stepin', () => {
-      svg
-      .append('rect')
-      .attr('class', 'first-rect')
-      .attr('x', xPositionScale(parseTime('06-20')))
-      .attr('y', 0)
-      .attr('width', rectWidth)
-      .attr('height', height)
-      .attr('fill', '#F9E79F')
-      .attr('opacity', 0.5)
-      .lower()
+      svg.select('.first-rect').style('visibility', 'visible')
+      svg.select('.sec-rect').style('visibility', 'hidden')      
+      svg.select('.third-rect').style('visibility', 'hidden')
+      svg.select('.four-rect').style('visibility', 'hidden')
+    })
+
+    d3.select('#second-stage').on('stepin', () => {
+      svg.select('.first-rect').style('visibility', 'hidden')
+      svg.select('.sec-rect').style('visibility', 'visible')
+      svg.select('.third-rect').style('visibility', 'hidden')
+      svg.select('.four-rect').style('visibility', 'hidden')
+    })
+
+    d3.select('#third-stage').on('stepin', () => {
+      svg.select('.first-rect').style('visibility', 'hidden')
+      svg.select('.sec-rect').style('visibility', 'hidden')
+      svg.select('.third-rect').style('visibility', 'visible')
+      svg.select('.four-rect').style('visibility', 'hidden')
+    })
+
+    d3.select('#fourth-stage').on('stepin', () => {
+      svg.select('.first-rect').style('visibility', 'hidden')
+      svg.select('.sec-rect').style('visibility', 'hidden')
+      svg.select('.third-rect').style('visibility', 'hidden')
+      svg.select('.four-rect').style('visibility', 'visible')
     })
 
     function render() {
@@ -178,13 +250,38 @@ function ready(datapoints) {
       svg.select('.title')
         .attr('x', newWidth / 2)
   
-        let rectWidth =
+        let rectWidth1 =
         xPositionScale(parseTime('08-13')) -
         xPositionScale(parseTime('06-20'))
   
       svg.select('.first-rect')
         .attr('x', xPositionScale(parseTime('06-20')))
-        .attr('width', rectWidth)
+        .attr('width', rectWidth1)
+        .attr('height', newHeight)
+
+        let rectWidth2 =
+        xPositionScale(parseTime('09-11')) -
+        xPositionScale(parseTime('08-13'))
+
+      svg.select('.sec-rect')
+        .attr('x', xPositionScale(parseTime('08-13')))
+        .attr('width', rectWidth2)
+        .attr('height', newHeight)
+
+        let rectWidth3 =
+        xPositionScale(parseTime('10-14')) -
+        xPositionScale(parseTime('09-11'))
+      
+      svg.select('.third-rect')
+        .attr('x', xPositionScale(parseTime('09-11')))
+        .attr('width', rectWidth3)
+        .attr('height', newHeight)
+
+        let rectWidth4 = newWidth - xPositionScale(parseTime('10-14'))
+
+      svg.select('.four-rect')
+        .attr('x', xPositionScale(parseTime('10-14')))
+        .attr('width', rectWidth4)
         .attr('height', newHeight)
   
      // Update axes if necessary
