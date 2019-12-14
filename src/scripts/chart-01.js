@@ -2,9 +2,9 @@ import * as d3 from 'd3'
 
 let margin = { top: 100, left: 50, right: 100, bottom: 30 }
 
-let height = 600 - margin.top - margin.bottom
+let height = 580 - margin.top - margin.bottom
 
-let width = 800 - margin.left - margin.right
+let width = 750 - margin.left - margin.right
 
 let svg = d3
   .select('#chart-1')
@@ -22,8 +22,8 @@ let yPositionScale = d3.scaleLinear().domain([0, 52]).range([height, 0])
 let colorScale = d3
   .scaleOrdinal()
   .range([
-    '#8dd3c7',
-    '#ffffb3',
+    '#1A5276',
+    '#7B241C',
   ])
 
 let line = d3
@@ -62,6 +62,7 @@ function ready(datapoints) {
     .data(nested)
     .enter()
     .append('path')
+    .attr('class', 'c-line')
     .attr('d', function(d) {
       return line(d.values)
     })
@@ -71,61 +72,38 @@ function ready(datapoints) {
     .attr('stroke-width', 2)
     .attr('fill', 'none')
 
-  // svg
-  //   .selectAll('circle')
-  //   .data(nested)
-  //   .enter()
-  //   .append('circle')
-  //   .attr('fill', function(d) {
-  //     return colorScale(d.key)
-  //   })
-  //   .attr('r', 4)
-  //   .attr('cy', function(d) {
-  //     return yPositionScale(d.values[0].price)
-  //   })
-  //   .attr('cx', function(d) {
-  //     return xPositionScale(d.values[0].datetime)
-  //   })
+  svg
+    .append('text')
+    .attr('class', 'red-text')
+    .attr('font-size', '12')
+    //.attr('text-anchor', 'middle')
+    .text('% of respondents have no trust in police')
+    .attr('fill', '#7B241C')
 
-  // svg
-  //   .selectAll('text')
-  //   .data(nested)
-  //   .enter()
-  //   .append('text')
-  //   .attr('y', function(d) {
-  //     return yPositionScale(d.values[0].price)
-  //   })
-  //   .attr('x', function(d) {
-  //     return xPositionScale(d.values[0].datetime)
-  //   })
-  //   .text(function(d) {
-  //     return d.key
-  //   })
-  //   .attr('dx', 6)
-  //   .attr('dy', 4)
-  //   .attr('font-size', '12')
+  svg
+    .append('text')
+    .attr('class', 'blue-text')
+    .attr('font-size', '12')
+    // .attr('text-anchor', 'middle')
+    .text('No. of protests by week')
+    .attr('fill', '#1A5276')
 
-  // svg
-  //   .append('text')
-  //   .attr('font-size', '24')
-  //   .attr('text-anchor', 'middle')
-  //   .text('U.S. housing prices fall in winter')
-  //   .attr('x', width / 2)
-  //   .attr('y', -40)
-  //   .attr('dx', 40)
+    svg
+    .append('text')
+    .attr('class', 'title')
+    .attr('font-size', '20')
+    .attr('font-weight', '600')
+    .attr('text-anchor', 'middle')
+    .text('Perception of HK Police Worsened as Protests Intensified')
+    .attr('x', width / 2)
+    .attr('y', -40)
+    .attr('dx', 40)
 
-  // let rectWidth =
-  //   xPositionScale(parseTime('February-17')) -
-  //   xPositionScale(parseTime('November-16'))
 
-  // svg
-  //   .append('rect')
-  //   .attr('x', xPositionScale(parseTime('December-16')))
-  //   .attr('y', 0)
-  //   .attr('width', rectWidth)
-  //   .attr('height', height)
-  //   .attr('fill', '#C2DFFF')
-  //   .lower()
+  let rectWidth =
+    xPositionScale(parseTime('08-13')) -
+    xPositionScale(parseTime('06-20'))
+
 
   let xAxis = d3
     .axisBottom(xPositionScale)
@@ -144,65 +122,79 @@ function ready(datapoints) {
     .attr('class', 'axis y-axis')
     .call(yAxis)
 
-    // function render() {
-    //   // Calculate height/width
-    //   let screenWidth = svg.node().parentNode.parentNode.offsetWidth
-    //   let screenHeight = window.innerHeight
-    //   let newWidth = screenWidth - margin.left - margin.right
-    //   let newHeight = screenHeight - margin.top - margin.bottom
+    d3.select('#first-stage').on('stepin', () => {
+      svg
+      .append('rect')
+      .attr('class', 'first-rect')
+      .attr('x', xPositionScale(parseTime('06-20')))
+      .attr('y', 0)
+      .attr('width', rectWidth)
+      .attr('height', height)
+      .attr('fill', '#F9E79F')
+      .attr('opacity', 0.5)
+      .lower()
+    })
+
+    function render() {
+      // Calculate height/width
+      let screenWidth = svg.node().parentNode.parentNode.offsetWidth
+      let screenHeight = window.innerHeight
+      let newWidth = screenWidth - margin.left - margin.right
+      let newHeight = screenHeight - margin.top - margin.bottom
   
-    //   // Update your SVG
-    //   let actualSvg = d3.select(svg.node().parentNode)
-    //   actualSvg
-    //     .attr('height', newHeight + margin.top + margin.bottom)
-    //     .attr('width', newWidth + margin.left + margin.right)
+      // Update your SVG
+      let actualSvg = d3.select(svg.node().parentNode)
+      actualSvg
+        .attr('height', newHeight + margin.top + margin.bottom)
+        .attr('width', newWidth + margin.left + margin.right)
   
-    //   // Update scales (depends on your scales)
-    //   xPositionScale.range([0, newWidth])
-    //   yPositionScale.range([newHeight, 0])
+      // Update scales (depends on your scales)
+      xPositionScale.range([0, newWidth])
+      yPositionScale.range([newHeight, 0])
   
-    //   // Reposition/redraw your elements
-    //   svg.selectAll('.region-line')
-    //     .attr('d', function(d) {
-    //       return line(d.values)
-    //     })
+      // Reposition/redraw your elements
+      svg.selectAll('.c-line')
+        .attr('d', function(d) {
+          return line(d.values)
+        })
+
+      svg.select('.blue-text')
+      .attr('y', function(d) {
+        return yPositionScale(2)
+      })
+      .attr('x', function(d) {
+        return xPositionScale(parseTime('10-08'))
+      })
+
+      svg.select('.red-text')
+      .attr('y', function(d) {
+        return yPositionScale(49)
+      })
+      .attr('x', function(d) {
+        return xPositionScale(parseTime('10-08'))
+      })
+       
+     
+      svg.select('.title')
+        .attr('x', newWidth / 2)
   
-    //   svg.selectAll('.region-circle')
-    //     .attr('cy', function(d) {
-    //       return yPositionScale(d.values[0].price)
-    //     })
-    //     .attr('cx', function(d) {
-    //       return xPositionScale(d.values[0].datetime)
-    //     })
+        let rectWidth =
+        xPositionScale(parseTime('08-13')) -
+        xPositionScale(parseTime('06-20'))
   
-    //   svg.selectAll('.region-text')
-    //     .attr('y', function(d) {
-    //       return yPositionScale(d.values[0].price)
-    //     })
-    //     .attr('x', function(d) {
-    //       return xPositionScale(d.values[0].datetime)
-    //     })
+      svg.select('.first-rect')
+        .attr('x', xPositionScale(parseTime('06-20')))
+        .attr('width', rectWidth)
+        .attr('height', newHeight)
   
-    //   svg.select('.title')
-    //     .attr('x', newWidth / 2)
+     // Update axes if necessary
+      svg.select('.x-axis')
+        .attr('transform', 'translate(0,' + newHeight + ')')
   
-    //   let rectWidth =
-    //     xPositionScale(parseTime('February-17')) -
-    //     xPositionScale(parseTime('November-16'))
+      svg.select('.x-axis').call(xAxis)
+      svg.select('.y-axis').call(yAxis)
+    }
   
-    //   svg.select('.winter-rect')
-    //     .attr('x', xPositionScale(parseTime('December-16')))
-    //     .attr('width', rectWidth)
-    //     .attr('height', newHeight)
-  
-    //   // Update axes if necessary
-    //   svg.select('.x-axis')
-    //     .attr('transform', 'translate(0,' + newHeight + ')')
-  
-    //   svg.select('.x-axis').call(xAxis)
-    //   svg.select('.y-axis').call(yAxis)
-    // }
-  
-    // window.addEventListener('resize', render)
-    // render()
+    window.addEventListener('resize', render)
+    render()
 }

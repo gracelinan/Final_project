@@ -25,11 +25,16 @@ analytics": ""
 
 {{> story/basic }}
 
-<!-- 
-  Charts are exactly the same.
--->
+{{!< bootstrap}}
+
+{{!-- <div class="row mt-3">
+  <div class="col-12"> --}}
 
 {{> story/chart }}
+
+  {{!-- </div>
+</div> --}}
+
 {{> story/chart2 }}
 
 
@@ -52,3 +57,9 @@ analytics": ""
     <h2>Here is some body copy</h2>
     <p>I can put code in <code>src/index.hbs</code> directly, but it's nicer to put it in a partial.</p>
 </div>
+
+
+ <!-- A few extra styles to make things responsive even in Bootstrap -->
+<link rel="stylesheet" href="styles/responsive.css">
+
+<script src="scripts/scrollytelling.js"></script> 
