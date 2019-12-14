@@ -1,0 +1,230 @@
+date,case,location,time,incident,week,week_day,month
+2019-06-10,Police strongly condemn law-breaking behaviours of protestors,Admiralty,0,block roads,W1,weekday,June
+2019-06-12,Police take action to stop riot,Admiralty,800,vandalism,W1,weekday,June
+2019-06-21,Police condemn protestors for besieging Police Headquarters,Wan Chai,1050,vandalism,W2,weekday,June
+2019-06-26,Police stringently follow up on illegal activities of damaging Police Headquarters,Wan Chai,2230,vandalism,W3,weekday,June
+2019-07-01,Police to conduct dispersal action in the vicinity of the Legislative Council Complex,Admiralty,400,vandalism,W4,weekend/holiday,July
+2019-07-01,Police appeal to public not to go to Wan Chai and Admiralty,Wan Chai,730,targeting police,W4,weekend/holiday,July
+2019-07-07,Police fulfil statutory duty to maintain public safety and public order,Mong Kok,2000,block roads,W4,weekend/holiday,July
+2019-07-13,Police to conduct dispersal action,Sheung Shui,1700,block roads,W5,weekend/holiday,July
+2019-07-14,Violent protests seriously undermine the rule of law,Sha Tin,,block roads,W5,weekend/holiday,July
+2019-07-21,Police condemn violent acts,Yuen Long,,assault,W6,weekend/holiday,July
+2019-07-21,Police appeal to protestors to leave immediately,Sheung Wan,2000,targeting police,W6,weekend/holiday,July
+2019-07-21,Police to conduct clearance operation,Western District,,vandalism,W6,weekend/holiday,July
+2019-07-21,Police appeal to public procession participants to leave as soon as possible,Admiralty,1700,block roads,W6,weekend/holiday,July
+2019-07-27,Police to conduct dispersal operation soon,Yuen Long,1500,vandalism,W7,weekend/holiday,July
+2019-07-28,Police severely condemn radical protestors’ law-breaking behaviours,Causeway Bay,1530,vandalism,W7,weekend/holiday,July
+2019-07-28,Protestors committed arson in Sheung Wan,Sheung Wan,,set fire,W7,weekend/holiday,July
+2019-07-28,Police are conducting dispersal operation in Western Division,Western District,1900,vandalism,W7,weekend/holiday,July
+2019-07-30,Police strongly condemn violent acts in Kwai Chung,Kwai Tsing,2130,assault,W8,weekday,July
+2019-07-31,Police strongly condemn violent acts in Tin Shui Wai,Tin Shui Wai,245,assault,W8,weekday,July
+2019-08-01,Police condemn violent acts,Sha Tin,2200,vandalism,W8,weekday,Aug
+2019-08-03,Protestors surround Tsim Sha Tsui Police Station and commit arson,Tsim Sha Tsui,,set fire,W8,weekend/holiday,Aug
+2019-08-03,Protestors blocked entrances of Cross-Harbour Tunnel and various junctions of Nathan Road,Hung Hom,,block roads,W8,weekend/holiday,Aug
+2019-08-03,Yau Ma Tei and Tsim Sha Tsui Police Station Report Room services suspended,Yau Ma Tei,,block roads,W8,weekend/holiday,Aug
+2019-08-03,Police appeal to public not to deviate from approved procession route,Mong Kok,1600,block roads,W8,weekend/holiday,Aug
+2019-08-04,Police’s dispersal operation in Wong Tai Sin,Wong Tai Sin,,targeting police,W8,weekend/holiday,Aug
+2019-08-04,Tin Shui Wai Division Police Station Report Room service suspended,Tin Shui Wai,,targeting police,W8,weekend/holiday,Aug
+2019-08-04,Kwun Tong Police Station Report Room service suspended,Kwun Tong,,vandalism,W8,weekend/holiday,Aug
+2019-08-04,Radical protestors committed arson in Causeway Bay,Causeway Bay,2000,set fire,W8,weekend/holiday,Aug
+2019-08-04,Protestors blocked Gloucester Road and Hong Kong Island entrance of Cross-Harbour Tunnel,Wan Chai,,block roads,W8,weekend/holiday,Aug
+2019-08-04,Some participants taking part in unauthorized assembly in Western District,Western District,1845,block roads,W8,weekend/holiday,Aug
+2019-08-04,Tseung Kwan O Police Station is criminally damaged,Tseung Kwan O,1430,vandalism,W8,weekend/holiday,Aug
+2019-08-04,Wong Tai Sin Disciplined Services Quarters surrounded by protestors,Wong Tai Sin,,vandalism,W8,weekend/holiday,Aug
+2019-08-05,Protestors blocked Lung Cheung Road,Wong Tai Sin,1515,block roads,W9,weekday,Aug
+2019-08-05,Police conducting dispersal operation in Admiralty,Admiralty,1500,vandalism,W9,weekday,Aug
+2019-08-05,Police conducting dispersal operation in Tin Shui Wai,Tin Shui Wai,,targeting police,W9,weekday,Aug
+2019-08-09,Police appeal to protestors to leave immediately,Wong Tai Sin,2100,targeting police,W9,weekday,Aug
+2019-08-10,Police condemn law-breaking and violent acts,Kowloon Tong,,set fire,W9,weekend/holiday,Aug
+2019-08-10,Protestors set fire outside Tsim Sha Tsui Police Station,Tsim Sha Tsui,,set fire,W9,weekend/holiday,Aug
+2019-08-10,Protestors block Kowloon entrances of Cross-Harbour Tunnel,Hung Hom,1900,block roads,W9,weekend/holiday,Aug
+2019-08-10,Police conduct dispersal operation in Tai Wai,Tai Wai,1800,block roads,W9,weekend/holiday,Aug
+2019-08-10,Protestors blocked roads in Shatin and Tai Wai,Sha Tin,1800,block roads,W9,weekend/holiday,Aug
+2019-08-10,Protestors in Tai Po participating in an unauthorized assembly,Tai Po,1600,block roads,W9,weekend/holiday,Aug
+2019-08-11,Kwai Chung Police Station surrounded by protestors,Kwai Tsing,,block roads,W9,weekend/holiday,Aug
+2019-08-11,Protestors blocked Nathan Road and Tsim Sha Tsui Police Station Report Room service suspended,Tsim Sha Tsui,,set fire,W9,weekend/holiday,Aug
+2019-08-11,Protestors blocked the junction of Lockhart Road and Fenwick Street,Wan Chai,,block roads,W9,weekend/holiday,Aug
+2019-08-11,Protesters occupying Hennessy Road in Causeway Bay,Causeway Bay,,block roads,W9,weekend/holiday,Aug
+2019-08-11,"Protestors in Sham Shui Po participating an ""unauthorised assembly""",Sham Shui Po,1500,block roads,W9,weekend/holiday,Aug
+2019-08-14,Police severely condemn radical and violent acts by protestors at airport,Airport,,assault,W10,weekday,Aug
+2019-08-17,Protestors occupy carriageways of Prince Edward Road West and unlawfully assemble outside Mong Kok Police Station,Mong Kok,,block roads,W10,weekend/holiday,Aug
+2019-08-17,Carriageways in Hung Hom blocked by protestors,Hung Hom,,block roads,W10,weekend/holiday,Aug
+2019-08-18,Police warn protestors to leave Admiralty area immediately,Admiralty,,block roads,W10,weekend/holiday,Aug
+2019-08-18,Main carriageways occupied by participants of public meeting,Western District,,block roads,W10,weekend/holiday,Aug
+2019-08-18,Carriageways occupied by participants of public meeting in Victoria Park,Causeway Bay,,block roads,W10,weekend/holiday,Aug
+2019-08-21,Police conducting dispersal operation in Yuen Long,Yuen Long,,block roads,W11,weekday,Aug
+2019-08-23,Police officers will enter Kwai Fong MTR station to respond to a report made by MTRC,Kwai Tsing,2000,vandalism,W11,weekday,Aug
+2019-08-24,Police conduct dispersal operation in Sham Shui Po,Sham Shui Po,2200,assault,W11,weekend/holiday,Aug
+2019-08-24,"Protestors blocked roads in Lung Cheung Road, Wong Tai Sin",Wong Tai Sin,2000,vandalism,W11,weekend/holiday,Aug
+2019-08-24,Police conducting dispersal operation in Kwun Tong,Kwun Tong,1400,set fire,W11,weekend/holiday,Aug
+2019-08-25,Police severely condemn law-breaking acts of extremely violent protestors,Hung Hom,1940,vandalism,W11,weekend/holiday,Aug
+2019-08-25,Protestors in Tsuen Wan escalate violence,Tsuen Wan,1535,vandalism,W11,weekend/holiday,Aug
+2019-08-31,Police severely condemn violent protests in multiple districts,North Point,1700,block roads,W12,weekend/holiday,Aug
+2019-08-31,,Wong Tai Sin,1800,vandalism,W12,weekend/holiday,Aug
+2019-08-31,,Hang Hau,1800,vandalism,W12,weekend/holiday,Aug
+2019-08-31,,Tin Shui Wai,1800,vandalism,W12,weekend/holiday,Aug
+2019-08-31,Police condemn radical protestors for violent acts inside MTR stations,Mong Kok,2200,vandalism,W12,weekend/holiday,Aug
+2019-08-31,Protestors blocked carriageways and Kwun Tong Police Station Report Room services suspended,Kwun Tong,2200,block roads,W12,weekend/holiday,Aug
+2019-08-31,Police conduct dispersal operation in Tsim Sha Tsui,Tsim Sha Tsui,2100,set fire,W12,weekend/holiday,Aug
+2019-08-31,Protestors escalate violence,Causeway Bay,1500,set fire,W12,weekend/holiday,Aug
+2019-08-31,Violent protestors set fires and damaged property in Wan Chai,Wan Chai,1400,vandalism,W12,weekend/holiday,Aug
+2019-08-31,Police conduct dispersal operation in Admiralty area,Admiralty,1400,vandalism,W12,weekend/holiday,Aug
+2019-08-31,Protestors block Des Voeux Road Central and Connaught Road Central,Central,,vandalism,W12,weekend/holiday,Aug
+2019-09-01,Protestors commit extensive destructive acts in Tung Chung,Tung Chung,1730,vandalism,W12,weekend/holiday,Sep
+2019-09-01,Protestors charge security cordon lines at airport,Airport,1300,block roads,W12,weekend/holiday,Sep
+2019-09-01,Police warn people to stop illegal acts in Chai Wan,Chai Wan,230,vandalism,W12,weekend/holiday,Sep
+2019-09-06,Violent protestors commit destructive acts at Mong Kok and Prince Edward MTR Stations,Mong Kok,2030,vandalism,W13,weekday,Sep
+2019-09-07,Protestors started fires outside Mongkok Police Station,Mong Kok,1800,set fire,W13,weekend/holiday,Sep
+2019-09-08,Police's dispersal operation in Mong Kok,Mong Kok,2100,block roads,W13,weekend/holiday,Sep
+2019-09-08,Police's dispersal operation in Causeway Bay,Causeway Bay,1730,block roads,W13,weekend/holiday,Sep
+2019-09-08,Protestors block the carriageways at Connaught Road Central and commit destructive acts,Central,1730,vandalism,W13,weekend/holiday,Sep
+2019-09-14,Protestors block carriageways in Tin Shui Wai,Tin Shui Wai,1830,block roads,W14,weekend/holiday,Sep
+2019-09-15,Police conduct dispersal operation in North Point,North Point,2000,assault,W14,weekend/holiday,Sep
+2019-09-15,Police continue to conduct dispersal operation in Wan Chai and Causeway Bay,Wan Chai,1430,set fire,W14,weekend/holiday,Sep
+2019-09-15,Police to conduct dispersal operation in Central and Admiralty,Central,1430,set fire,W14,weekend/holiday,Sep
+2019-09-15,Protestors blocking roads in Hong Kong Island and Wan Chai Police Station Report Room service suspended,Admiralty,1430,vandalism,W14,weekend/holiday,Sep
+2019-09-15,Protestors in Causeway Bay participating in an unauthorized assembly,Causeway Bay,1400,block roads,W14,weekend/holiday,Sep
+2019-09-21,Protestors blocking carriageways at Nathan Road and Mong Kok Police Station Report Room service suspended,Mong Kok,1800,block roads,W15,weekend/holiday,Sep
+2019-09-21,Police warn protestors to leave the vicinity of Yuen Long West Rail Station immediately,Yuen Long,2110,set fire,W15,weekend/holiday,Sep
+2019-09-21,Police warn protestors to stop illegal acts and leave immediately,Tuen Mun,1600,vandalism,W15,weekend/holiday,Sep
+2019-09-22,Radical protestors set fires in Mong Kok,Mong Kok,1800,set fire,W15,weekend/holiday,Sep
+2019-09-22,Protestors set barricades and set fires in Sha Tin,Sha Tin,1700,set fire,W15,weekend/holiday,Sep
+2019-09-26,Police warn protestors in the vicinity of Queen Elizabeth Stadium to stop illegal acts,Wan Chai,1800,vandalism,W16,weekday,Sep
+2019-09-28,Protestors block Harcourt Road and damage properties,Admiralty,1830,vandalism,W16,weekend/holiday,Sep
+2019-09-29,Police strongly condemn continued violent protests,Mong Kok,1800,set fire,W16,weekend/holiday,Sep
+2019-09-29,Wan Chai Police Station Report Room services suspended temporarily,Wan Chai,1500,vandalism,W16,weekend/holiday,Sep
+2019-09-29,Police dispersal operation underway in Causeway Bay,Causeway Bay,1300,block roads,W16,weekend/holiday,Sep
+2019-10-01,Riotous acts continue in various districts,Tsuen Wan,1300,set fire,W17,weekend/holiday,Oct
+2019-10-01,,Tai Wai,1300,set fire,W17,weekend/holiday,Oct
+2019-10-01,Rioting acts across Hong Kong,Sham Shui Po,1300,set fire,W17,weekend/holiday,Oct
+2019-10-01,Radical protestors burn national flag in Causeway Bay and block roads in Sheung Wan,Sheung Wan,1300,block roads,W17,weekend/holiday,Oct
+2019-10-01,Police warn protestors in Sha Tin to stop illegal acts,Sha Tin,1300,block roads,W17,weekend/holiday,Oct
+2019-10-01,Police warn protestors in Wong Tai Sin to stop illegal acts and report room services of Wong Tai Sin Police Station suspended,Wong Tai Sin,1300,block roads,W17,weekend/holiday,Oct
+2019-10-01,Police warn protestors in Tuen Mun to stop illegal acts,Tuen Mun,1300,vandalism,W17,weekend/holiday,Oct
+2019-10-01,Police appeal protestors on Hong Kong Island to leave immediately,Causeway Bay,1300,block roads,W17,weekend/holiday,Oct
+2019-10-02,Illegal acts across Hong Kong,Causeway Bay,0,block roads,W17,weekday,Oct
+2019-10-02,,Wong Tai Sin,0,block roads,W17,weekday,Oct
+2019-10-02,Police warn protestors to stop illegal acts,Tsuen Wan,0,vandalism,W17,weekday,Oct
+2019-10-03,Police warn violent protestors in Taikoo and Tuen Mun to stop illegal acts,Tai Koo,2200,vandalism,W17,weekday,Oct
+2019-10-03,,Tuen Mun,0,vandalism,W17,weekday,Oct
+2019-10-04,Riotous acts in various districts,Sha Tin,0,vandalism,W17,weekday,Oct
+2019-10-04,,Tsuen Wan,0,vandalism,W17,weekday,Oct
+2019-10-04,,Wong Tai Sin,0,vandalism,W17,weekday,Oct
+2019-10-04,Police conduct dispersal operation in Causeway Bay,Causeway Bay,0,set fire,W17,weekday,Oct
+2019-10-04,Police warn protestors to stop illegal acts,Kwun Tong,0,vandalism,W17,weekday,Oct
+2019-10-04,Protestors blocking roads in Hong Kong Island,Central,0,block roads,W17,weekday,Oct
+2019-10-05,Police warn protestors in various districts to stop illegal acts and report room services of Yuen Long Police Station suspended,Aberdeen,0,vandalism,W17,weekend/holiday,Oct
+2019-10-05,,Siu Sai Wan,0,vandalism,W17,weekend/holiday,Oct
+2019-10-05,,Yau Ma Tei,0,vandalism,W17,weekend/holiday,Oct
+2019-10-05,,Mong Kok,0,vandalism,W17,weekend/holiday,Oct
+2019-10-05,,Tseung Kwan O,0,vandalism,W17,weekend/holiday,Oct
+2019-10-05,,Tai Po,0,vandalism,W17,weekend/holiday,Oct
+2019-10-05,,Tin Shui Wai,0,vandalism,W17,weekend/holiday,Oct
+2019-10-05,Police conduct dispersal operation in Wong Tai Sin and Yuen Long and report room services of Wong Tai Sin Police Station suspended,Wong Tai Sin,0,block roads,W17,weekend/holiday,Oct
+2019-10-05,,Yuen Long,0,block roads,W17,weekend/holiday,Oct
+2019-10-06,Police conduct dispersal operations in Mong Kok,Mong Kok,1400,block roads,W17,weekend/holiday,Oct
+2019-10-06,Police to conduct dispersal operation on Hong Kong Island,Central,1400,block roads,W17,weekend/holiday,Oct
+2019-10-06,Protestors block roads in various districts and Police appeal public to stay indoors,Admiralty,1400,block roads,W17,weekend/holiday,Oct
+2019-10-06,,Sham Shui Po,1400,block roads,W17,weekend/holiday,Oct
+2019-10-06,,Kowloon Tong,1400,block roads,W17,weekend/holiday,Oct
+2019-10-06,Protestors occupying Nathan Road in Tsim Sha Tsui,Tsim Sha Tsui,1400,block roads,W17,weekend/holiday,Oct
+2019-10-06,Protestors occupying carriageways in Causeway Bay,Causeway Bay,1400,block roads,W17,weekend/holiday,Oct
+2019-10-07,Masked rioters set fires in Yuen Long and Tseung Kwan O,Yuen Long,2100,set fire,W18,weekend/holiday,Oct
+2019-10-07,,Tseung Kwan O,2100,set fire,W18,weekend/holiday,Oct
+2019-10-07,Masked rioters destroy public safety in various districts and Police appeal public to stay in safe places,Sha Tin,2000,vandalism,W18,weekend/holiday,Oct
+2019-10-07,,Tai Po,2000,vandalism,W18,weekend/holiday,Oct
+2019-10-07,,Wong Tai Sin,2000,vandalism,W18,weekend/holiday,Oct
+2019-10-07,,Tai Koo,2000,vandalism,W18,weekend/holiday,Oct
+2019-10-07,Police warn rioters in various districts to stop committing destructive acts and blocking roads,Tsuen Wan,2000,vandalism,W18,weekend/holiday,Oct
+2019-10-07,,Tuen Mun,2000,block roads,W18,weekend/holiday,Oct
+2019-10-07,Police warn protestors outside Mong Kok Police Station to stop blocking roads,Mong Kok,1800,block roads,W18,weekend/holiday,Oct
+2019-10-12,Police disperse protestors outside Mong Kok Police Station,Mong Kok,1630,vandalism,W18,weekend/holiday,Oct
+2019-10-12,Police warn protestors to stop illegal acts and Report Room services of Sham Shui Po and Mong Kok Police Station suspended,Sham Shui Po,1700,set fire,W18,weekend/holiday,Oct
+2019-10-12,Protestors block Nathan Road and Tsim Sha Tsui Police Station Report Room services suspended,Tsim Sha Tsui,1530,block roads,W18,weekend/holiday,Oct
+2019-10-12,Rioters throw petrol bombs inside Kowloon Tong MTR Station,Kowloon Tong,1500,set fire,W18,weekend/holiday,Oct
+2019-10-13,Rioters vandalise properties and set fire in Mong Kok,Mong Kok,1500,set fire,W18,weekend/holiday,Oct
+2019-10-13,Police officer is wounded by sharp-edged object,Kwun Tong,1700,vandalism,W18,weekend/holiday,Oct
+2019-10-13,Rioters block road and vandalise properties in various districts Police to conduct dispersal and arrest operations,Sha Tin,1400,set fire,W18,weekend/holiday,Oct
+2019-10-13,,Tseung Kwan O,1930,target police,W18,weekend/holiday,Oct
+2019-10-13,Police deploy tear gas to disperse rioters,Tsuen Wan,1400,vandalism,W18,weekend/holiday,Oct
+2019-10-14,Protestors block carriageways in Central,Central,1900,block roads,W19,weekday,Oct
+2019-10-20,Rioters set fires at multiple locations in Kowloon disregarding safety of the public,Yau Ma Tei,1500,set fire,W19,weekend/holiday,Oct
+2019-10-20,,Sham Shui Po,,set fire,W19,weekend/holiday,Oct
+2019-10-20,"Rioters vandalise properties in Tsim Sha Tsui, Yau Ma Tei and Mong Kok",Mong Kok,1500,set fire,W19,weekend/holiday,Oct
+2019-10-20,Protestors block roads in Tsim Sha Tsui and Tsim Sha Tsui Police Station Report Room services suspended,Tsim Sha Tsui,1330,vandalism,W19,weekend/holiday,Oct
+2019-10-21,Rioters hurl hard objects at police officers and vandalise bank facilities in Yuen Long and Police continue to conduct dispersal operation,Yuen Long,1930,vandalism,W20,weekday,Oct
+2019-10-26,Protestors damage traffic lights in Yuen Long,Yuen Long,2100,vandalism,W20,weekend/holiday,Oct
+2019-10-27,Masked rioters vandalise MTR stations and set fires on roads,Yau Ma Tei,1900,vandalism,W20,weekend/holiday,Oct
+2019-10-27,Masked rioters set fire to MTR station and hurled petrol bombs at police officers on Nathan Road in Mong Kok,Mong Kok,1900,set fire,W20,weekend/holiday,Oct
+2019-10-27,Protestors set fire to shops and hurled petrol bombs at police station at night,Sham Shui Po,1800,set fire,W20,weekend/holiday,Oct
+2019-10-27,Protestors block roads in the vicinity of Salisbury Road junction with Nathan Road in Tsim Sha Tsui,Tsim Sha Tsui,1200,block roads,W20,weekend/holiday,Oct
+2019-10-28,Rioters hurl petrol bomb to restaurant near Tai Hing Operational Base in Tuen Mun,Tuen Mun,2030,set fire,W21,weekday,Oct
+2019-10-31,Protestors set fire and obstruct fire services in Mong Kok,Mong Kok,1900,set fire,W21,weekday,Oct
+2019-10-31,Protestors in Lan Kwai Fong participating in unauthorised assembly,Central,2000,block roads,W21,weekday,Oct
+2019-11-02,Masked rioters assault passer-by and strip his underwear,Mong Kok,2100,assault,W21,weekend/holiday,Nov
+2019-11-02,"Masked rioters block roads, set fire and damage facilities in Kowloon",Jordan,2100,vandalism,W21,weekend/holiday,Nov
+2019-11-02,,Yau Ma Tei,2100,vandalism,W21,weekend/holiday,Nov
+2019-11-02,Masked protestors assault bystanders in Tsim Sha Tsui,Tsim Sha Tsui,1200,assault,W21,weekend/holiday,Nov
+2019-11-02,Masked rioters set fire and vandalise shops on Hong Kong Island,Wan Chai,1700,set fire,W21,weekend/holiday,Nov
+2019-11-02,Police warn violent protestors to stop illegal acts,Causeway Bay,1400,vandalism,W21,weekend/holiday,Nov
+2019-11-03,Police strongly condemn organised violent and vandalistic acts by masked rioters,Yuen Long,,vandalism,W21,weekend/holiday,Nov
+2019-11-03,Masked rioters vandalise a restaurant in Cityplaza,Tai Koo,1700,assault,W21,weekend/holiday,Nov
+2019-11-03,Masked rioters vandalise facilities in shops in Tai Po,Tai Po,1500,vandalism,W21,weekend/holiday,Nov
+2019-11-03,Masked protestors cause nuisances to public and shops in shopping mall in Tuen Mun,Tuen Mun,,vandalism,W21,weekend/holiday,Nov
+2019-11-03,Masked rioters vandalise facilities in Sha Tin MTR station,Sha Tin,1600,vandalism,W21,weekend/holiday,Nov
+2019-11-05,Protestors block roads and vandalise shops,Tsim Sha Tsui,,vandalism,W22,weekday,Nov
+2019-11-08,Rioters commit destructive acts extensively in various districts,Causeway Bay,,block roads,W22,weekday,Nov
+2019-11-08,,Mong Kok,,targeting police,W22,weekday,Nov
+2019-11-08,,Tseung Kwan O,,block roads,W22,weekday,Nov
+2019-11-08,,Sha Tin,,block roads,W22,weekday,Nov
+2019-11-08,,Tuen Mun,,set fire,W22,weekday,Nov
+2019-11-08,,Yuen Long,,set fire,W22,weekday,Nov
+2019-11-09,Open fire in Yau Ma Tei,Yau Ma Tei,2145,block roads,W22,weekend/holiday,Nov
+2019-11-10,Police strongly condemn organised vandalistic acts by violent protestors,Tai Po,1400,vandalism,W22,weekend/holiday,Nov
+2019-11-10,Police dispersal action in Mong Kok,Mong Kok,,set fire,W22,weekend/holiday,Nov
+2019-11-10,Violent protestors continue to commit destructive acts in various districts,Tsuen Wan,1400,vandalism,W22,weekend/holiday,Nov
+2019-11-10,Violent protestors commit destructive acts extensively in various districts,Tuen Mun,1400,block roads,W22,weekend/holiday,Nov
+2019-11-10,Violent protestors recklessly damage shops in Kowloon Tong Festival Walk,Kowloon Tong,1400,vandalism,W22,weekend/holiday,Nov
+2019-11-10,Radical protestors vandalise shops and facilities in various districts,Sha Tin,1400,vandalism,W22,weekend/holiday,Nov
+2019-11-10,,Hang Hau,1400,vandalism,W22,weekend/holiday,Nov
+2019-11-11,,Sha Tin,630,block roads,W23,weekday,Nov
+2019-11-11,,Tseung Kwan O,830,block roads,W23,weekday,Nov
+2019-11-11,,Sha Tin,750,block roads,W23,weekday,Nov
+2019-11-11,Protestors block roads in various districts and commuters should reserve time,Hung Hom,630,block roads,W23,weekday,Nov
+2019-11-11,,Tuen Mun,630,set fire,W23,weekday,Nov
+2019-11-12,,Western District,,assault,W23,weekday,Nov
+2019-11-12,Police Force statement on situation in Chinese University of Hong Kong,Sha Tin,,set fire,W23,weekday,Nov
+2019-11-12,Protestors occupy Nathan Road and Shantung Street,Mong Kok,,set fire,W23,weekday,Nov
+2019-11-12,Protestors blocking roads in the vicinity of Central,Central,1200,block roads,W23,weekday,Nov
+2019-11-12,Protestors block roads in various districts and commuters should reserve time,Kowloon Tong,700,block roads,W23,weekday,Nov
+2019-11-13,Rioters hurl petrol bombs at Tolo Highway,Sha Tin,,set fire,W23,weekday,Nov
+2019-11-13,Serious traffic congestion across Hong Kong,Sheung Shui,,block roads,W23,weekday,Nov
+2019-11-13,,Tseung Kwan O,,block roads,W23,weekday,Nov
+2019-11-13,,Kowloon Tong,,block roads,W23,weekday,Nov
+2019-11-13,,Mong Kok,,block roads,W23,weekday,Nov
+2019-11-13,,Hung Hom,,block roads,W23,weekday,Nov
+2019-11-13,,Central,,block roads,W23,weekday,Nov
+2019-11-13,,Sai Wan Ho,,block roads,W23,weekday,Nov
+2019-11-14,,Sha Tin,,block roads,W23,weekday,Nov
+2019-11-14,Rioters maliciously throw objects from height and assault members of the public,Tsim Sha Tsui,645,assault,W23,weekday,Nov
+2019-11-15,Rioters block Tolo Highway again,Sha Tin,,block roads,W23,weekday,Nov
+2019-11-16,,Tsim Sha Tsui,,set fire,W23,weekend/holiday,Nov
+2019-11-16,Police respond to statements by media organisations,Mong Kok,0,set fire,W23,weekend/holiday,Nov
+2019-11-17,Police open fire in Yau Ma Tei,Yau Ma Tei,2200,targeting police,W23,weekend/holiday,Nov
+2019-11-17,Police conduct dispersal action in Mong Kok,Mong Kok,1700,block roads,W23,weekend/holiday,Nov
+2019-11-17,Police dispersal action in Tsim Sha Tsui,Tsim Sha Tsui,,set fire,W23,weekend/holiday,Nov
+2019-11-18,Police attach great importance to the injured people at Hong Kong Polytechnic University and the rights of arrested persons,Tsim Sha Tsui,,,W24,weekday,Nov
+2019-11-18,Police warn drivers not to block roads in Tsim Sha Tsui and Jordan,Yau Ma Tei,0,block roads,W24,weekday,Nov
+2019-11-19,,Tsim Sha Tsui,,vandalism,W24,weekday,Nov
+2019-11-20,Police reiterate that arrangements for underage occupants at PolyU remain unchanged,Tsim Sha Tsui,,,W24,weekday,Nov
+2019-11-20,Police clarify stampede rumour during operation in Yau Ma Tei on November 18,Yau Ma Tei,,targeting police,W24,weekday,Nov
+2019-11-21,,Tsim Sha Tsui,,vandalism,W24,weekday,Nov
+2019-11-22,,Tsim Sha Tsui,,vandalism,W24,weekday,Nov
+2019-11-23,Police appeal to all staying in the campus to leave Polytechnic University in a peaceful manner,Tsim Sha Tsui,,,W24,weekend/holiday,Nov
+2019-11-24,Police appeal to all staying in Hong Kong Polytechnic University to leave in a peaceful manner,Tsim Sha Tsui,,,W24,weekend/holiday,Nov
+2019-11-25,,Tsim Sha Tsui,,,W25,weekday,Nov
+2019-11-26,Police appeal to all staying in Hong Kong Polytechnic University to leave in a peaceful manner,Tsim Sha Tsui,,,W25,weekday,Nov
+2019-11-27,,Tsim Sha Tsui,,,W25,weekday,Nov
+2019-11-30,Protestors block Nathan Road and Mong Kok Police Station Report Room services suspended,Mong Kok,2000,block roads,W25,weekend/holiday,Nov
+2019-12-01,,Tsim Sha Tsui,1500,targeting police,W25,weekend/holiday,Dec
+2019-12-01,,Whampoa,2000,assault,W25,weekend/holiday,Dec
