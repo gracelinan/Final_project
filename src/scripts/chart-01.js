@@ -22,8 +22,9 @@ let yPositionScale = d3.scaleLinear().domain([0, 52]).range([height, 0])
 let colorScale = d3
   .scaleOrdinal()
   .range([
-    '#1A5276',
-    '#7B241C',
+    '#018571',
+    '#a6611a',
+    '#80cdc1'
   ])
 
 let line = d3
@@ -35,7 +36,7 @@ let line = d3
     return yPositionScale(d.count)
   })
 
-d3.csv(require('/data/protests.csv'))
+d3.csv(require('/data/protests2.csv'))
   .then(ready)
   .catch(err => {
     console.log(err)
@@ -78,15 +79,21 @@ function ready(datapoints) {
     .attr('font-size', '12')
     //.attr('text-anchor', 'middle')
     .text('% of respondents have no trust in police')
-    .attr('fill', '#7B241C')
+    .attr('fill', '#a6611a')
 
   svg
     .append('text')
     .attr('class', 'blue-text')
     .attr('font-size', '12')
-    // .attr('text-anchor', 'middle')
     .text('No. of protests by week')
-    .attr('fill', '#1A5276')
+    .attr('fill', '#018571')
+
+    svg
+    .append('text')
+    .attr('class', 'tg-text')
+    .attr('font-size', '12')
+    .text('Tear gas usage')
+    .attr('fill', '#80cdc1')
 
     svg
     .append('text')
@@ -111,7 +118,7 @@ function ready(datapoints) {
     .attr('y', 0)
     .attr('width', rectWidth1)
     .attr('height', height)
-    .attr('fill', '#F9E79F')
+    .attr('fill', '#f4a582')
     .attr('opacity', 0.5)
     .lower()
     .attr('visibility', 'hidden')
@@ -127,7 +134,7 @@ function ready(datapoints) {
   .attr('y', 0)
   .attr('width', rectWidth2)
   .attr('height', height)
-  .attr('fill', '#F9E79F')
+  .attr('fill', '#f4a582')
   .attr('opacity', 0.5)
   .lower()
   .attr('visibility', 'hidden')
@@ -143,7 +150,7 @@ function ready(datapoints) {
   .attr('y', 0)
   .attr('width', rectWidth3)
   .attr('height', height)
-  .attr('fill', '#F9E79F')
+  .attr('fill', '#f4a582')
   .attr('opacity', 0.5)
   .lower()
   .attr('visibility', 'hidden')
@@ -157,7 +164,7 @@ function ready(datapoints) {
   .attr('y', 0)
   .attr('width', rectWidth4)
   .attr('height', height)
-  .attr('fill', '#F9E79F')
+  .attr('fill', '#f4a582')
   .attr('opacity', 0.5)
   .lower()
   .attr('visibility', 'hidden')
@@ -232,7 +239,7 @@ function ready(datapoints) {
 
       svg.select('.blue-text')
       .attr('y', function(d) {
-        return yPositionScale(2)
+        return yPositionScale(37)
       })
       .attr('x', function(d) {
         return xPositionScale(parseTime('10-08'))
@@ -246,6 +253,13 @@ function ready(datapoints) {
         return xPositionScale(parseTime('10-08'))
       })
        
+      svg.select('.tg-text')
+      .attr('y', function(d) {
+        return yPositionScale(1)
+      })
+      .attr('x', function(d) {
+        return xPositionScale(parseTime('10-08'))
+      })
      
       svg.select('.title')
         .attr('x', newWidth / 2)
